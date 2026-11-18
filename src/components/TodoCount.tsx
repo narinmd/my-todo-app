@@ -33,7 +33,6 @@ export default function TodoCount({
         </span>
       </button>
 
-      {/* Completed Filter */}
       <button
         onClick={() => onFilterChange("completed")}
         className={`flex items-center gap-2 p-2 rounded-lg transition-all ${
@@ -48,7 +47,6 @@ export default function TodoCount({
         </span>
       </button>
 
-      {/* Uncompleted Filter */}
       <button
         onClick={() => onFilterChange("uncompleted")}
         className={`flex items-center gap-2 p-2 rounded-lg transition-all ${
